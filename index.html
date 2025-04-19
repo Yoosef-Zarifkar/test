@@ -9,15 +9,16 @@
       href="./materialize-v1.0.0/materialize/css/materialize.min.css"
     />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/util.css">
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-        <nav>
+        <nav class="white">
             <div class="nav-wrapper">
-              <a href="#!" class="brand-logo">Logo</a>
-              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-              <ul class="right hide-on-med-and-down">
+              <a href="#!" class="black-text">Home</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+              <ul class="right hide-on-med-and-down black-text">
                 <li><a href="sass.html">Sass</a></li>
                 <li><a href="badges.html">Components</a></li>
                 <li><a href="collapsible.html">Javascript</a></li>
@@ -27,10 +28,20 @@
           </nav>
         
           <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">Javascript</a></li>
-            <li><a href="mobile.html">Mobile</a></li>
+            <li><div class="user-view">
+                <div class="background">
+                  <img src="./Images/backiee-102533-landscape.jpg" class=".w-full">
+                </div>
+                <a href="#user"><img class="circle" src="images/backiee-274958-landscape - Copy.jpg"></a>
+                <a href="#name"><span class="white-text name">Yoosef Zarifkar</span></a>
+                <a href="#email"><span class="white-text email">test@gmail.com</span></a>
+              </div></li>
+              <li><a href="#!"><i class="material-icons">cloud</i>سایت من</a></li>
+              <li><a href="#!"><i class="material-icons">cloud</i>کانال من</a></li>
+              <li><div class="divider"></div></li>
+              <li><a class="subheader">داشبورد</a></li>
+              <li><a class="waves-effect" href="#!">صفحه من</a></li>
+              <li><a class="waves-effect" href="#!">خروج</a></li>
           </ul>
                 
     </header>
